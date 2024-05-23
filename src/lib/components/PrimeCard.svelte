@@ -22,7 +22,7 @@
 
 <style lang="postcss">
     .prime-card-container {
-        @apply flex flex-col items-center justify-between border-opacity-75 border-white border-[5px] max-w-64 relative overflow-hidden;
+        @apply flex flex-col items-center justify-between border-opacity-75 border-white border-[5px] max-w-64 relative overflow-hidden mx-3;
         background: linear-gradient(27deg, rgba(0, 0, 0, 0.00) -0.62%, rgba(255, 255, 255, 0.10) 100%), #0B0C10;
         border-color: #131418;
     }

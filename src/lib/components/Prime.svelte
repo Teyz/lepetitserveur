@@ -1,19 +1,11 @@
 <script lang="ts">
-	import { writable } from "svelte/store";
+	import { browser } from "$app/environment";
 	import PrimeCard from "./PrimeCard.svelte";
-    import LightCarousel from 'svelte-light-carousel';
+    import Carousel from "svelte-carousel";
 
     export let primes: any[] = [];
 
-    const slides = primes.map((prime: any) => {
-        return {
-            name: prime.fields.name,
-            rewards: prime.fields.rewards,
-            isFinished: prime.fields.isFinished,
-        }
-    });
-
-    $: currentIndex = 0;
+    let carousel: any; // for calling methods of the carousel instance
 </script>
 
 <div class="prime-container">
@@ -26,32 +18,21 @@
         </div>
         <img src="/image/prime.png" alt="" class="avatar">
     </div>
-    {currentIndex}
     <div class="prime-list-container">
-        {#each primes as prime}
-            <LightCarousel {slides} layout={{ xs: 4 }} autoHeight containerClass="flex items-center justify-center gap-8" bind:currentIndex={currentIndex} >
-                <div slot="slide" let:slide let:index class="flex items-center justify-center gap-8">
-                    <PrimeCard name={prime.fields.name} rewards={prime.fields.rewards} isFinished={prime.fields.isFinished}/>
-                </div>
-                <div
-                    slot="dots"
-                    let:dots
-                    let:a11y
-                    let:scrollTo
-                    data-progress
-                    class="absolute left-1/4 -bottom-10 w-1/2 gap-2 justify-center flex items-center z-10"
-                    {...a11y}
+        {#if browser}
+            <Carousel
+                particlesToShow={4}
+                particlesToScroll={1}
+                infinite={false}
+                swiping={true}
                 >
-                    {#each Array(Math.ceil(slides.length / 4)) as _, i}
-                        <button
-                            {...a11y}
-                            on:click={() => scrollTo(i)}
-                            class={'rounded-full cursor-pointer aria-[selected="true"]:scale-125 transition-all w-3 h-3  aria-[selected="true"]:bg-white bg-secondary-dark'}
-                        />
-                    {/each}
-                </div>
-            </LightCarousel>
-        {/each}
+                {#each primes as prime (prime.fields.name)}
+                    <div class="item">
+                        <PrimeCard name={prime.fields.name} rewards={prime.fields.rewards} isFinished={prime.fields.isFinished}/>
+                    </div>
+                {/each}
+            </Carousel>
+        {/if}
     </div>
 </div>
 
@@ -100,6 +81,10 @@
     } 
 
     .prime-list-container {
-        @apply flex items-center justify-center;
+        @apply flex items-center justify-center max-w-5xl m-auto;
     }
+
+    .sc-carousel-dots__container {
+        padding-top: 24px;
+    }    
 </style>
