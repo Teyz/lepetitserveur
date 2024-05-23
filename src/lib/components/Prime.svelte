@@ -13,17 +13,7 @@
         }
     });
 
-    const currentSlide = writable(0);
-
-    function goToSlide(index: number) {
-        currentSlide.set(index);
-    }
-
     $: currentIndex = 0;
-
-    currentSlide.subscribe(value => {
-        currentIndex = value;
-    });
 </script>
 
 <div class="prime-container">
@@ -36,9 +26,10 @@
         </div>
         <img src="/image/prime.png" alt="" class="avatar">
     </div>
+    {currentIndex}
     <div class="prime-list-container">
         {#each primes as prime}
-            <LightCarousel {slides} layout={{ xs: 4 }} autoHeight containerClass="flex items-center justify-center gap-8">
+            <LightCarousel {slides} layout={{ xs: 4 }} autoHeight containerClass="flex items-center justify-center gap-8" bind:currentIndex={currentIndex} >
                 <div slot="slide" let:slide let:index class="flex items-center justify-center gap-8">
                     <PrimeCard name={prime.fields.name} rewards={prime.fields.rewards} isFinished={prime.fields.isFinished}/>
                 </div>
