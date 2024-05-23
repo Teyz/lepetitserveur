@@ -1,13 +1,14 @@
-<script>
+<script lang="ts">
 	import Banner from "$lib/components/Banner.svelte";
 	import Footer from "$lib/components/Footer.svelte";
-import Header from "$lib/components/Header.svelte";
+	import Header from "$lib/components/Header.svelte";
 	import Hero from "$lib/components/Hero.svelte";
 	import Participants from "$lib/components/Participants.svelte";
 	import Presentation from "$lib/components/Presentation.svelte";
 	import Prime from "$lib/components/Prime.svelte";
 	import Team from "$lib/components/Team.svelte";
 
+	export let data;	
 </script>
 
 <Header />
@@ -15,6 +16,6 @@ import Header from "$lib/components/Header.svelte";
 <Presentation />
 <Team />
 <Participants />
-<Prime />
+<Prime primes={data.primes}/>
 <Banner />
 <Footer />

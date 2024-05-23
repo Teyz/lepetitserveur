@@ -37,6 +37,7 @@
 	"dependencies": {
 		"@auth/core": "^0.10.0",
 		"@auth/sveltekit": "^0.3.6",
-		"@fontsource/inter": "^5.0.5"
+		"@fontsource/inter": "^5.0.5",
+		"contentful": "^10.11.2"
 	}
 }

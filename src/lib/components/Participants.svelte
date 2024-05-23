@@ -23,7 +23,7 @@
 
 <style lang="postcss">
     .participants-container {
-        @apply flex flex-col items-center justify-center gap-11 px-8 md:px-36;
+        @apply flex flex-col items-center justify-center gap-11 px-8 md:px-36 mt-36;
 
         @media screen and (min-width: 1920) {
             padding: 96px 250px !important;

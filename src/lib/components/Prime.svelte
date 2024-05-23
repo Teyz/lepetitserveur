@@ -1,3 +1,8 @@
+<script lang="ts">
+	import PrimeCard from "./PrimeCard.svelte";
+
+    export let primes: any[] = [];    
+</script>
 <div class="prime-container">
     <div class="prime-content">
         <div class="flex flex-col gap-4 items-center justify-center max-w-3xl">
@@ -6,11 +11,19 @@
             <h2>Ne laissez personne dominer votre équipe</h2>
             <p>Restez discret vis-à-vis de vos ennemis en plaçant une prime anonymement ! Ne créez pas de nouveaux ennemis inutilement.</p>
         </div>
-        <img src="/image/prime.png" alt="">
+        <img src="/image/prime.png" alt="" class="avatar">
+    </div>
+    <div class="prime-list-container">
+        {#each primes as prime}
+            <PrimeCard name={prime.fields.name} rewards={prime.fields.rewards} isFinished={prime.fields.isFinished}/>
+        {/each}
     </div>
 </div>
 
 <style lang="postcss">
+    .prime-container {
+        @apply flex flex-col gap-11 mt-36;
+    } 
     .prime-content {
         @apply flex items-center justify-center gap-11;
     }
@@ -50,4 +63,8 @@
         font-family: Volkhov;
         line-height: 28px;
     } 
+
+    .prime-list-container {
+        @apply flex items-center justify-center;
+    }
 </style>
