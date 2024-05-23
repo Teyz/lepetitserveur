@@ -1,8 +1,31 @@
 <script lang="ts">
+	import { writable } from "svelte/store";
 	import PrimeCard from "./PrimeCard.svelte";
+    import LightCarousel from 'svelte-light-carousel';
 
-    export let primes: any[] = [];    
+    export let primes: any[] = [];
+
+    const slides = primes.map((prime: any) => {
+        return {
+            name: prime.fields.name,
+            rewards: prime.fields.rewards,
+            isFinished: prime.fields.isFinished,
+        }
+    });
+
+    const currentSlide = writable(0);
+
+    function goToSlide(index: number) {
+        currentSlide.set(index);
+    }
+
+    $: currentIndex = 0;
+
+    currentSlide.subscribe(value => {
+        currentIndex = value;
+    });
 </script>
+
 <div class="prime-container">
     <div class="prime-content">
         <div class="flex flex-col gap-4 items-center justify-center max-w-3xl">
@@ -15,7 +38,28 @@
     </div>
     <div class="prime-list-container">
         {#each primes as prime}
-            <PrimeCard name={prime.fields.name} rewards={prime.fields.rewards} isFinished={prime.fields.isFinished}/>
+            <LightCarousel {slides} layout={{ xs: 4 }} autoHeight containerClass="flex items-center justify-center gap-8">
+                <div slot="slide" let:slide let:index class="flex items-center justify-center gap-8">
+                    <PrimeCard name={prime.fields.name} rewards={prime.fields.rewards} isFinished={prime.fields.isFinished}/>
+                </div>
+                <div
+                    slot="dots"
+                    let:dots
+                    let:a11y
+                    let:scrollTo
+                    data-progress
+                    class="absolute left-1/4 -bottom-10 w-1/2 gap-2 justify-center flex items-center z-10"
+                    {...a11y}
+                >
+                    {#each Array(Math.ceil(slides.length / 4)) as _, i}
+                        <button
+                            {...a11y}
+                            on:click={() => scrollTo(i)}
+                            class={'rounded-full cursor-pointer aria-[selected="true"]:scale-125 transition-all w-3 h-3  aria-[selected="true"]:bg-white bg-secondary-dark'}
+                        />
+                    {/each}
+                </div>
+            </LightCarousel>
         {/each}
     </div>
 </div>
