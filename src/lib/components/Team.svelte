@@ -18,7 +18,7 @@
     <h1>60 vampires repartient <br> en 15 Équipes</h1>
     <p>We welcome you and your community to the Court of Creators, the Official V Rising Creator</p>
 
-    <div class="flex items-center justify-center gap-3">
+    <div class="flex items-center justify-center gap-3 flex-wrap">
         {#each teams as team}
             <button on:click={() => currentTeam = team} class={currentTeam === team ? 'active' : ''}>
                 {team}
@@ -26,7 +26,7 @@
         {/each}
     </div>
 
-    <div class="flex items-center justify-center gap-32 p-8">
+    <div class="flex items-center justify-center gap-16 md:gap-32 p-8 flex-wrap">
         {#each currentMembers as { name, avatar }}
             <Item {name} {avatar} />
         {/each}

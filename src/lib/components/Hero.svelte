@@ -22,15 +22,16 @@
 
 <style lang="postcss">
     .hero-container {
-        @apply flex items-center justify-start py-24 px-8 md:px-36;
-
-        @media screen and (min-width: 1920) {
-            padding: 96px 250px !important;
-        }
+        @apply flex items-center justify-start pt-64 pb-24 md:py-24 px-8 md:px-36;
     }
 
     img {
-        @apply absolute right-0 top-0 -z-[1];
+        @apply absolute md:right-0 top-0 -z-[1];
+
+        scale: 5;
+        @media screen and (min-width: 1024px) {
+            scale: 1;
+        }
     }
 
     .hero-content {

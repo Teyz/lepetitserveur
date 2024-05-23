@@ -12,11 +12,11 @@
 
 <style lang="postcss">
     .presentation-container {
-        @apply flex items-center justify-center gap-11 py-64;
+        @apply flex flex-col md:flex-row items-center justify-center gap-11 py-64;
     }
 
-    video {
-        @apply border-opacity-20 border-4 border-white;
+    iframe {
+        @apply border-opacity-20 border-4 border-white w-full md:max-w-2xl;
     }
 
     span {

@@ -1,11 +1,33 @@
 <script lang="ts">
 	import { browser } from "$app/environment";
+	import { onMount } from "svelte";
 	import PrimeCard from "./PrimeCard.svelte";
     import Carousel from "svelte-carousel";
 
     export let primes: any[] = [];
+    let carousel: any;
+    $: particlesToShow = 4;
 
-    let carousel: any; // for calling methods of the carousel instance
+    const updateParticlesToShow = () => {
+        console.log("coucou");
+        
+        const width = window.innerWidth;
+        if (width < 600) {
+        particlesToShow = 1;
+        } else if (width < 900) {
+        particlesToShow = 2;
+        } else {
+        particlesToShow = 4;
+        }
+    };
+
+    onMount(() => {
+        updateParticlesToShow();
+        window.addEventListener('resize', updateParticlesToShow);
+        return () => {
+            window.removeEventListener('resize', updateParticlesToShow);
+        };
+    });
 </script>
 
 <div class="prime-container">
@@ -21,7 +43,8 @@
     <div class="prime-list-container">
         {#if browser}
             <Carousel
-                particlesToShow={4}
+                bind:this={carousel}
+                particlesToShow={particlesToShow}
                 particlesToScroll={1}
                 infinite={false}
                 swiping={true}
@@ -41,11 +64,11 @@
         @apply flex flex-col gap-11 mt-36;
     } 
     .prime-content {
-        @apply flex items-center justify-center gap-11;
+        @apply flex flex-col md:flex-row items-center justify-center gap-11;
     }
 
     img {
-        @apply border-opacity-20 border-4 border-white max-w-2xl object-contain;
+        @apply border-opacity-20 border-4 border-white w-full max-w-2xl object-contain;
     }
 
     span {
@@ -80,8 +103,12 @@
         line-height: 28px;
     } 
 
+    .item {
+        @apply flex items-center justify-center;
+    }
+
     .prime-list-container {
-        @apply flex items-center justify-center max-w-5xl m-auto;
+        @apply flex items-center justify-center max-w-5xl m-auto w-full;
     }
 
     .sc-carousel-dots__container {
