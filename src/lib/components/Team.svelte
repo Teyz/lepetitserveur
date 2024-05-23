@@ -101,12 +101,21 @@
         letter-spacing: 2.4px;
         text-transform: uppercase;
         transition: all 0.25s ease;
+        border-right: 3px solid rgba(255, 255, 255, 0);
+        border-left: 3px solid  rgba(255, 255, 255, 0);
+
+        transition: all 0.25s ease;
     }
 
-    button:hover, button.active {
+    button.active {
         color: #FFF;
         border-right: 3px solid var(--Linear-Stroke, #FFF);
         border-left: 3px solid var(--Linear-Stroke, #FFF);
         background: linear-gradient(180deg, #383840 0%, #1A1A1F 100%);
+    }
+
+    button:hover {
+        background: linear-gradient(180deg, #383840 0%, #1A1A1F 100%);
+        color: rgba(255, 255, 255, 0.40);
     }
 </style>
