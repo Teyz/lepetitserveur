@@ -18,7 +18,7 @@
     <h1>60 vampires repartient <br> en 15 Équipes</h1>
     <p>Chaque équipe compte quatre joueurs, et chacune a sa propre manière de jouer et de découvrir le jeu ! Alors, jetez-y un coup d'œil !</p>
 
-    <div class="flex items-center justify-center gap-3 flex-wrap">
+    <div class="md:flex md:items-center md:justify-center gap-3 md:flex-wrap grid grid-flow-col overflow-auto max-w-full">
         {#each teams as team}
             <button on:click={() => currentTeam = team} class={currentTeam === team ? 'active' : ''}>
                 {team}
