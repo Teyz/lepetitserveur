@@ -37,25 +37,25 @@
     <div class="mobile-container z-[9] flex flex-col justify-between w-screen h-dvh bg-primary-dark px-8 pt-32 pb-8 {open ? "open" : ""}">
         <ul>
             <li>
-                <a href="#serveur">Serveur</a>
+                <a href="#serveur" on:click={handleClick}>Serveur</a>
             </li>
             <li>
                 <div class="divider" />
             </li>
             <li>
-                <a href="#presentation">Presentation</a>
+                <a href="#presentation" on:click={handleClick}>Presentation</a>
             </li>
             <li>
                 <img src="/image/logo.svg" alt="Le petit serveur - V Rising logo">
             </li>
             <li>
-                <a href="#equipes">Equipes</a>
+                <a href="#equipes" on:click={handleClick}>Equipes</a>
             </li>
             <li>
                 <div class="divider" />
             </li>
             <li>
-                <a href="#participants">Participants</a>
+                <a href="#participants" on:click={handleClick}>Participants</a>
             </li>
         </ul>
     </div>
