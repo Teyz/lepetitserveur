@@ -12,7 +12,7 @@
 </script>
 
 <svelte:head>
-	<meta name="description" content="">
+	<meta name="description" content="Le petit serveur Vrising entre Vampire car la nuit tout les vampires sont amis.">
 	<meta name="keywords" content="vrising, lepetitserveur, twitch">
 	<meta name="title" content="LePetitServeur - V Rising">
 	<link rel="canonical" href="https://www.lepetitserveur.fr/" /> 
@@ -22,7 +22,7 @@
 	<meta property="og:url" content="https://www.lepetitserveur.fr/">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="LePetitServeur - V Rising">
-	<meta property="og:description" content="">
+	<meta property="og:description" content="Le petit serveur Vrising entre Vampire car la nuit tout les vampires sont amis.">
 	<meta property="og:image" content="/image/og.png">
 
 	<!-- Twitter Meta Tags -->
@@ -30,7 +30,7 @@
 	<meta property="twitter:domain" content="lepetitserveur.fr/">
 	<meta property="twitter:url" content="https://www.lepetitserveur.fr/">
 	<meta name="twitter:title" content="LePetitServeur - V Rising">
-	<meta name="twitter:description" content="">
+	<meta name="twitter:description" content="Le petit serveur Vrising entre Vampire car la nuit tout les vampires sont amis.">
 	<meta name="twitter:image" content="/image/og.png">
 </svelte:head>
 
