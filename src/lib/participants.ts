@@ -170,25 +170,25 @@ export const participants = [
     {
         name: 'Eliya',
         avatar: '/image/pp/Eliya.png',
-        team: 'Les 4 sans cou',
+        team: 'Les 4 Sangcou',
         twitch_url: 'https://www.twitch.tv/oo_eliya_oo',
     },
     {
         name: 'Bahamutcosplay',
         avatar: '/image/pp/Bahamut.png',
-        team: 'Les 4 sans cou',
+        team: 'Les 4 Sangcou',
         twitch_url: 'https://www.twitch.tv/Bahamutcosplay',
     },
     {
         name: 'Pinde',
         avatar: '/image/pp/Pinde.png',
-        team: 'Les 4 sans cou',
+        team: 'Les 4 Sangcou',
         twitch_url: 'https://www.twitch.tv/Pinde',
     },
     {
         name: 'Titavion',
         avatar: '/image/pp/Titavion.png',
-        team: 'Les 4 sans cou',
+        team: 'Les 4 Sangcou',
         twitch_url: 'https://www.twitch.tv/Titavion',
     },
     {
@@ -318,7 +318,7 @@ export const participants = [
         twitch_url: null,
     },
     {
-        name: 'Papygateau',
+        name: 'Papygato',
         avatar: null,
         team: 'Crocs Mignon',
         twitch_url: null,
