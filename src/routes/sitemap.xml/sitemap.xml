@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://rm-architecture.netlify.app/</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/projets</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/agence</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/faq</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/glossaire</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/projets/appartements</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/projets/surelevations</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/projets/terrasses</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/projets/appartements/projet-de-test-photo</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/projets/terrasses/transformation-dun-toit-inaccessible-en-jardin-suspendu</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/projets/surelevation/surelevation-complete-dun-immeuble-a-paris</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/projets/surelevation/construction-dun-etage-sur-le-toit-terrasse-dun-immeuble-en-peripherie-de</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/projets/appartements/reamenagement-dun-t2-en-t4-dans-le-11e-arrondissement</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/projets/terrasses/terrasse-sur-le-toit-dun-immeuble-art-deco</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/projets/surelevation/creation-dun-duplex-par-rehaussement-dun-batiment-parisien</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/projets/surelevation/creation-de-deux-etages-supplementaires-sur-un-immeuble-dhabitation-avec</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/projets/surelevation/amenagement-dun-toit-terrasse-avec-surelevation-a-ossature-bois</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/projets/terrasses/transformation-dun-toit-incline-en-terrasse-dagrement</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/projets/terrasses/transformation-dun-toit-inaccessible-en-terrasse</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/projets/appartements/renovation-complete-dun-appartement-a-paris</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/projets/appartements/amenagement-dun-logement-familial-en-duplex-sous-combles</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/article/renover-un-appartement-haussmannien-allier-preservation-du-charme-et</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/article/larchitecture-durable-pour-un-futur-responsable</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/article/agrandir-son-logement-avec-la-surelevation-une-solution-ingenieuse</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/article/les-couts-de-la-renovation-complete-dun-appartement-parisien</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/article/comment-choisir-les-materiaux-de-renovation-adaptes-a-votre-appartement</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/article/de-la-planification-a-la-realisation-les-etapes-cles-dune-renovation</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/article/la-surelevation-des-batiments-a-paris-une-reponse-innovante-au-manque</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/article/les-avantages-de-la-surelevation-pour-optimiser-votre-espace-de-vie</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/article/top-10-des-erreurs-a-eviter-lors-dune-renovation-a-paris</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/article/transformation-de-votre-espace-exterieur-limpact-dune-extension-sur-votre</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/article/batir-pour-le-futur-zoom-sur-les-tendances-emergentes-en-architecture-et</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/mentions-l%C3%A9gales</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/faq/est-ce-necessaire-de-faire-appel-a-un-architecte-pour-lamenagement-dune</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/faq/avant-de-signer-avec-un-architecte-puis-je-lui-demander-de-realiser-une</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/faq/en-quoi-consiste-le-travail-de-larchitecte</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/faq/dois-je-choisir-un-architecte-dplg-ou-un-architecte-d-interieur-pour-mon</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/faq/lassurance-dommages-ouvrage-est-elle-une-obligation</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/faq/comment-choisir-un-architecte-pour-son-projet-de-construction-de-renovation</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/faq/combien-coute-un-architecte</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/faq/a-quel-moment-faire-appel-a-un-architecte</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/glossaire/architecte-pour-toiture-vegetalisee</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/glossaire/architecte-pour-loft-a-paris</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/glossaire/architecte-contemporain-a-paris</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/glossaire/architecte-moderne-a-paris</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/glossaire/architecte-pour-maison-contemporaine</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/glossaire/architecte-pour-rehabilitation</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/glossaire/architecte-pour-agrandissement-maison</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/glossaire/architecte-pour-maison-design</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/glossaire/architecte-pour-surelevation-de-toiture</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/glossaire/architecte-pour-amenagement-de-local-commercial</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/glossaire/architecte-pour-surelevation-dimmeuble</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/glossaire/architecte-pour-construction-de-maison-moderne</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/glossaire/architecte-pour-batiment</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/glossaire/architecte-pour-restaurant</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/glossaire/architecte-pour-boutique</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/glossaire/architecte-pour-maison-en-bois</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/glossaire/architecte-pour-local-commercial</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/glossaire/architecte-pour-entreprise</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/glossaire/architecte-pour-extension-de-maison</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/glossaire/architecte-pour-surelevation-bois</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/glossaire/architecte-pour-terrasse</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/glossaire/architecte-pour-bureaux</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/glossaire/architecte-pour-renovation-a-paris</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/glossaire/architecte-pour-surelevation</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/glossaire/architecte-pour-magasin</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/glossaire/architecte-dinterieur-a-paris</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/projets/surelevations/surelevation-complete-dun-immeuble-a-paris</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/projets/surelevations/creation-dun-duplex-par-rehaussement-dun-batiment-parisien</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/projets/surelevations/creation-de-deux-etages-supplementaires-sur-un-immeuble-dhabitation-avec</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/projets/surelevations/amenagement-dun-toit-terrasse-avec-surelevation-a-ossature-bois</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rm-architecture.netlify.app/projets/surelevations/construction-dun-etage-sur-le-toit-terrasse-dun-immeuble-en-peripherie-de</loc>
+  <lastmod>2024-05-13T15:12:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
