@@ -40,23 +40,25 @@
         </div>
         <img src="/image/prime.png" alt="" class="avatar">
     </div>
-    <div class="prime-list-container">
-        {#if browser}
-            <Carousel
-                bind:this={carousel}
-                particlesToShow={particlesToShow}
-                particlesToScroll={1}
-                infinite={false}
-                swiping={true}
-                >
-                {#each primes as prime (prime.fields.name)}
-                    <div class="item">
-                        <PrimeCard name={prime.fields.name} rewards={prime.fields.rewards} isFinished={prime.fields.isFinished}/>
-                    </div>
-                {/each}
-            </Carousel>
-        {/if}
-    </div>
+    {#if primes}
+        <div class="prime-list-container">
+            {#if browser && primes.length > 0}
+                <Carousel
+                    bind:this={carousel}
+                    particlesToShow={particlesToShow}
+                    particlesToScroll={1}
+                    infinite={false}
+                    swiping={true}
+                    >
+                    {#each primes as prime (prime.fields.name)}
+                        <div class="item">
+                            <PrimeCard name={prime.fields.name} rewards={prime.fields.rewards} isFinished={prime.fields.isFinished}/>
+                        </div>
+                    {/each}
+                </Carousel>
+            {/if}
+        </div>
+    {/if}
 </div>
 
 <style lang="postcss">
@@ -78,7 +80,7 @@
     }
 
     h1 {
-        @apply text-5xl font-normal uppercase text-center;
+        @apply text-2xl md:text-5xl font-normal uppercase text-center;
         line-height: 52px; /* 108.333% */
         letter-spacing: 12px;
         background: linear-gradient(180deg, #FFF 6.77%, #93B3CA 89.84%);
