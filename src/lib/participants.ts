@@ -340,5 +340,11 @@ export const participants = [
         avatar: '/image/pp/JoueurduGrenier.png',
         team: 'Equipe 15',
         twitch_url: 'https://www.twitch.tv/joueur_du_grenier',
+    },
+    {
+        name: 'Sakor',
+        avatar: '/image/pp/sakor.png',
+        team: 'Equipe 15',
+        twitch_url: 'https://www.twitch.tv/sakor_',
     }
 ];
