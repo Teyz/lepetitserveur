@@ -67,9 +67,9 @@ export const participants = [
     },
     {
         name: 'Snake',
-        avatar: null,
+        avatar: '/image/pp/snake.png',
         team: 'Maison Frey',
-        twitch_url: null,
+        twitch_url: 'https://www.twitch.tv/v_snakee',
     },
     {
         name: 'Hugolisoir',
