@@ -44,7 +44,7 @@
     }
 
     h1 {
-        @apply text-5xl font-normal uppercase text-center;
+        @apply text-2xl md:text-5xl font-normal uppercase text-center;
         line-height: 52px; /* 108.333% */
         letter-spacing: 12px;
         background: linear-gradient(180deg, #FFF 6.77%, #93B3CA 89.84%);

@@ -33,16 +33,19 @@ export const participants = [
         name: 'M4f',
         avatar: '/image/pp/M4f.png',
         team: 'Les CommerSang',
+        twitch_url: 'https://www.twitch.tv/M4fgaming',
     },
     {
         name: 'Bobby Vulgrif',
         avatar: '/image/pp/BobbyVulgrif.png',
         team: 'Les CommerSang',
+        twitch_url: 'https://www.twitch.tv/bobbyvulgrif',
     },
     {
         name: 'Pressea',
         avatar: '/image/pp/Pressea.jpeg',
         team: 'Les CommerSang',
+        twitch_url: 'https://www.twitch.tv/pressea',
     },
     {
         name: 'iMeelk',

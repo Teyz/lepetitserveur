@@ -40,5 +40,5 @@
 <Team />
 <Participants />
 <Prime primes={data.primes}/>
-<Banner />
+<!-- <Banner /> -->
 <Footer />
