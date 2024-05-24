@@ -12,7 +12,7 @@
 
 <style lang="postcss">
     .presentation-container {
-        @apply flex flex-col md:flex-row items-center justify-center gap-11 py-64;
+        @apply flex flex-col md:flex-row items-center justify-center gap-11 py-64 px-8 md:px-0;
     }
 
     iframe {

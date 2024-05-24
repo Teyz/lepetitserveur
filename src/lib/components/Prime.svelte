@@ -30,9 +30,9 @@
     });
 </script>
 
-<div class="prime-container">
+<div class="prime-container px-8 md:px-0">
     <div class="prime-content">
-        <div class="flex flex-col gap-4 items-center justify-center max-w-3xl">
+        <div class="flex flex-col gap-4 items-center justify-center max-w-3xl px-8 md:px-0">
             <span>PRIME</span>
             <h1>Mettez des primes sur vos ennemis</h1>
             <h2>Ne laissez personne dominer votre équipe</h2>
@@ -110,8 +110,4 @@
     .prime-list-container {
         @apply flex items-center justify-center max-w-5xl m-auto w-full;
     }
-
-    .sc-carousel-dots__container {
-        padding-top: 24px;
-    }    
 </style>

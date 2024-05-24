@@ -101,14 +101,13 @@
     }
 
     .big {
-        @apply flex items-center justify-center gap-2;
+        @apply flex items-center justify-center gap-2 text-2xl md:text-5xl ;
         background: linear-gradient(180deg, #FFF 6.77%, #93B3CA 89.84%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         text-align: center;
         font-family: "nocturne";
-        font-size: 48px;
         font-style: normal;
         font-weight: 400;
         line-height: 48px; /* 100% */

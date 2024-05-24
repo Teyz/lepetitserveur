@@ -27,8 +27,8 @@
     </div>
 
     <div class="flex items-center justify-center gap-16 md:gap-32 p-8 flex-wrap">
-        {#each currentMembers as { name, avatar }}
-            <Item {name} {avatar} />
+        {#each currentMembers as { name, avatar, twitch_url }}
+            <Item {name} {avatar} {twitch_url}/>
         {/each}
     </div>
 </div>
@@ -53,7 +53,7 @@
     }
 
     h1 {
-        @apply text-5xl font-normal uppercase text-center;
+        @apply text-5xl font-normal uppercase text-center px-8 md:px-0;
         line-height: 52px; /* 108.333% */
         letter-spacing: 12px;
         background: linear-gradient(180deg, #FFF 6.77%, #93B3CA 89.84%);

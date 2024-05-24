@@ -15,8 +15,8 @@
     <p>We welcome you and your community to the Court of Creators, the Official V Rising Creator</p>
 
     <div class="flex items-center justify-center gap-16 md:gap-32 p-8 flex-wrap">
-        {#each participants as { name, avatar }}
-            <Item {name} {avatar} />
+        {#each participants as { name, avatar, twitch_url }}
+            <Item {name} {avatar} {twitch_url} />
         {/each}
     </div>
 </div>

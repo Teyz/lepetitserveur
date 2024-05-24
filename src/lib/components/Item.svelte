@@ -1,14 +1,24 @@
 <script lang="ts">
   export let name: string;
-  export let avatar: string;
+  export let avatar;
+  export let twitch_url;
 </script>
 
-<div class="item-container">
+{#if twitch_url}
+  <a href={twitch_url} class="item-container">
     <div class="diamond">
       <img src={avatar} alt="">
     </div>
     <span>{name}</span>
-</div>
+  </a>
+{:else}
+<a href={twitch_url} class="item-container">
+  <div class="diamond">
+    <img src="/image/pp/noStream.png" alt="">
+  </div>
+  <span>{name}</span>
+</a>
+{/if}
 
 <style lang="postcss">
     .item-container {
@@ -21,13 +31,14 @@
         height: 100px;
         overflow: hidden;
         transform: rotate(45deg);
+        position: relative;
     }
 
     .diamond img {
         width: 100px;
         height: 100px;
         object-fit: cover;
-        transform: rotate(-45deg);
+        transform: scale(1.5) rotate(-45deg);
     }
 
     span {

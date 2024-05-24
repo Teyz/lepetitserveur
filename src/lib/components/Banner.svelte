@@ -4,12 +4,12 @@
 </script>
 <div class="banner-container">
     <span>FIN DE L’EVENEMENT</span>
-    <Countdown endDate="2024-05-24T20:00:00" classZ="big"/>
+    <Countdown endDate="2024-05-24T20:00:00" classZ="big px-8 md:px-0"/>
 </div>
 
 <style lang="postcss">
     .banner-container {
-        @apply flex flex-col gap-4 items-center justify-center pt-36 pb-24;
+        @apply flex flex-col gap-4 items-center justify-center pt-36 pb-24 px-8 md:px-0;
     }
 
     span {
