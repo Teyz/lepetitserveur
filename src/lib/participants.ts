@@ -18,7 +18,7 @@ export const participants = [
         twitch_url: 'https://www.twitch.tv/krapoplay_fr',
     },
     {
-        name: 'Pawn',
+        name: 'Pawm',
         avatar: '/image/pp/Pawn.jpeg',
         team: 'Don taveine',
         twitch_url: 'https://www.twitch.tv/pawm__',
@@ -133,9 +133,9 @@ export const participants = [
     },
     {
         name: 'Aerzia',
-        avatar: null,
+        avatar: 'https://media.discordapp.net/attachments/1243572333260705943/1243574350255493171/GKGNjHjXgAEOprj.jpg?ex=6651f85d&is=6650a6dd&hm=fb748a741e5db2b8a8273f023f7081c7b03907407e3b1d78d5c9e9b6382b91a0&=&format=webp&width=842&height=1264',
         team: 'Sang Rancune',
-        twitch_url: null,
+        twitch_url: 'https://www.twitch.tv/aerzia',
     },
     {
         name: 'Desastre_Show',
