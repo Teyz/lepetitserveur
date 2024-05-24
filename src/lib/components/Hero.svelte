@@ -7,12 +7,11 @@
     <img src="/image/hero-bg.png" alt="">
     <div class="hero-content">
         <div class="flex flex-col gap-4 items-center justify-center max-w-3xl">
-            <span>SERVEUR SEMI-RP PVP</span>
-            <h1>60 Vampires <br> 7 jours</h1>
-            <h2>Join the court - create - expand your</h2>
-            <p>We welcome you and your community to the Court of Creators, the Official V Rising Creator
-                Program, and look forward to taking this blood-soaked adventure together. Take your
-                community on a journey to indulge your dark desires!</p>
+            <span>ÉVENEMENT</span>
+            <h1>une aventure <br> vampirique</h1>
+            <h2 class="text-center">7 jours pour explorer toutes les nouveautés <br>
+                <strong>de la v1.0 de VRising</strong></h2>
+            <p>Suivez nos histoires à travers les différentes équipes, entre PvP et PvE. C'est à vous de choisir ! Au fond, c'est juste un serveur entre potes.</p>
         </div>
         <div class="countdown-container">
             <Countdown endDate="2024-05-24T20:00:00" />

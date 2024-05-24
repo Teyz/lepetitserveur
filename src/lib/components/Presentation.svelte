@@ -1,12 +1,10 @@
 <div class="presentation-container" id="presentation">
     <iframe width="700" height="400" src="https://www.youtube.com/embed/aB_2ZRn9F_k?si=IpM4_PqwjPo1aRAA&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen />
-    <div class="flex flex-col gap-4 items-center justify-center max-w-3xl">
-        <span>SERVEUR SEMI-RP PVP</span>
-        <h1>60 Vampires <br> 7 jours</h1>
-        <h2>Join the court - create - expand your</h2>
-        <p>We welcome you and your community to the Court of Creators, the Official V Rising Creator
-            Program, and look forward to taking this blood-soaked adventure together. Take your
-            community on a journey to indulge your dark desires!</p>
+    <div class="flex flex-col gap-4 items-center justify-center max-w-2xl">
+        <span>presentation</span>
+        <h1>RPG D'ACTION ET DE SURVIE DE VAMPIRE</h1>
+        <h2 class="text-center">CONSTRUISEZ VOTRE CHÂTEAU - CHASSE AU SANG - <strong>MONTÉE EN PUISSANCE</strong></h2>
+        <p>Réveillé après des siècles, érigez un château, asservissez des humains, pillez des villages et buvez le sang de vos ennemis pour devenir le prédateur ultime. Oserez-vous défier le trône de Dracula ?</p>
     </div>
 </div>
 

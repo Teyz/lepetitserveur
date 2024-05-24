@@ -16,7 +16,7 @@
         <div class="divider" />
     </div>
     <h1>60 vampires repartient <br> en 15 Équipes</h1>
-    <p>We welcome you and your community to the Court of Creators, the Official V Rising Creator</p>
+    <p>Chaque équipe compte quatre joueurs, et chacune a sa propre manière de jouer et de découvrir le jeu ! Alors, jetez-y un coup d'œil !</p>
 
     <div class="flex items-center justify-center gap-3 flex-wrap">
         {#each teams as team}
