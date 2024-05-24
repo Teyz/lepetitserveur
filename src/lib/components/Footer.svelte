@@ -2,7 +2,11 @@
     <img src="/image/footer.png" alt="">
     <span>
         All rights reserved 
-        <a href="">Eventis</a>
+        <a href="https://x.com/EventisFr">Eventis</a>
+        - Design by 
+        <a href="https://x.com/iMeelk">iMeelk</a>
+        && Developed by
+        <a href="https://x.com/bastienrgd">Teyz</a>
     </span>
 </footer>
 
