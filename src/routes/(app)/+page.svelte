@@ -23,7 +23,7 @@
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="LePetitServeur - V Rising">
 	<meta property="og:description" content="">
-	<meta property="og:image" content="https://opengraph.b-cdn.net/production/documents/d33ab777-108b-4028-b957-f7cbfce61305.svg?token=9PuXgL1LXaC4H_iMecp_De5fUwfW_P6UhC9ZTklJViA&height=51&width=69&expires=33249203618">
+	<meta property="og:image" content="/image/og.png">
 
 	<!-- Twitter Meta Tags -->
 	<meta name="twitter:card" content="summary_large_image">
@@ -31,7 +31,7 @@
 	<meta property="twitter:url" content="https://www.lepetitserveur.fr/">
 	<meta name="twitter:title" content="LePetitServeur - V Rising">
 	<meta name="twitter:description" content="">
-	<meta name="twitter:image" content="https://opengraph.b-cdn.net/production/documents/d33ab777-108b-4028-b957-f7cbfce61305.svg?token=9PuXgL1LXaC4H_iMecp_De5fUwfW_P6UhC9ZTklJViA&height=51&width=69&expires=33249203618">
+	<meta name="twitter:image" content="/image/og.png">
 </svelte:head>
 
 <Navbar />
