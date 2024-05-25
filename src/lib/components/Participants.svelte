@@ -11,7 +11,7 @@
         <h2>Liste des participants</h2>
         <div class="divider" />
     </div>
-    <h1>60 vampires repartient <br> en 15 Équipes</h1>
+    <h1>60 vampires répartis <br> en 15 Équipes</h1>
     <p>We welcome you and your community to the Court of Creators, the Official V Rising Creator</p>
 
     <div class="flex items-center justify-center gap-16 md:gap-32 p-8 flex-wrap">
